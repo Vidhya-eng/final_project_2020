@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="leftContainer">
+        <h1 id="heading">Light Weather</h1>
+        <div id="weatherIcon"></div>
+        </canvas>
+        <div id="inline">
+            <span id="weatherTemperature"></span>
+            <span id="tempUnit"></span>
+            <span id="name"></span>
+        </div>
+        <p id="timeandDate"></p>
+    </div>
+    <div class="rightContainer">
+        <div class="form-group w-100 input-group inputList">
+            <input type=" text " id="searchBar" class="form-control" placeholder="Enter The Location ">
+            <span class="input-group-btn ">
+              <button class="btn btn-warning submitBtn" id="searchBtn" type="button"> <i class="fa fa-search fa-lg "></i>
+            </button>
+            </span>
+        </div>
+        <hr>
+        <h3>Weather Details</h3>
+        <hr>
+        <div class="weatherContainer">
+            <p id="weatherCloudy">Description:</p>
+            <p id="weatherMaxTemp">Max-Temp:</p>
+            <p id="weatherWind">Wind:</p>
+        </div>
+        <hr>
+        <h3>Next Days</h3>
+        <ul id="nextDaysWeather"></ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        
+        #searchBar {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        
+        .submitBtn {
+            margin-left: 20px;
+            margin-top: 0px;
+            width: 80px;
+            height: 80px;
+            color: orange;
+        }
+        
+        .leftContainer {
+            width: 65%;
+            margin-left: 0px;
+            background-image: url("https://images.pexels.com/photos/267151/pexels-photo-267151.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+            height: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding-bottom: 85%;
+        }
+        
+        h1 {
+            color: white;
+        }
+        
+        .rightContainer {
+            /*  display: flex;
+    flex-direction: column; */
+            border: 1px lightgray;
+            width: 35%;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            background-color: #2d3436;
+            background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+            padding-bottom: 85%;
+            /* z-index: -1; */
+        }
+        
+        .rightContainer h3 {
+            color: white;
+            padding-left: 15px;
+        }
+        
+        .rightContainer p {
+            color: white;
+            padding-left: 15px;
+        }
+        
+        #inline {
+            margin-top: 200px;
+            color: white;
+        }
+        
+        #weatherTemperature {
+            margin-left: 300px;
+            font-size: 50px;
+        }
+        
+        #tempUnit {
+            font-size: 45px;
+        }
+        
+        #name {
+            margin-left: 50px;
+            font-size: 25px;
+        }
+        
+        #weatherIcon {
+            text-align: center;
+        }
+        
+        .windMarginAdjustment {
+            margin-left: 15px;
+        }
+        
+        .cloudMarginAdjustment {
+            margin-left: 10px;
+        }
+        
+        .tempMarginAdjustment {
+            margin-left: 10px;
+        }
+        
+        .weatherContainer {
+            line-height: 3.5;
+        }
+        
+        #timeandDate {
+            color: white;
+            margin-top: 350px;
+            margin-left: 250px;
+            font-size: 25px;
+        }
+        
+        .temperatureStyle {
+            margin-left: 80px;
+        }
+        
+        .iconStyle {
+            margin-left: 50px;
+        }
+        
+        .unitOfWind {
+            color: white;
+        }
+        
+        .iconSize {
+            width: 200px;
+            height: 250px;
+        }
+        /*  .nextDayTempUnit {
+            color: white;
+        } */
